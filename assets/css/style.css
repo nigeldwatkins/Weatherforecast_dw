@@ -1,0 +1,29 @@
+#search-history{
+    font-size: 1.2rem;
+    color: rgba(15, 14, 14, 0.769);
+}
+
+#search-btn {
+    cursor: pointer;
+}
+
+#city-history {
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+    font-size: 1.5rem;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(227, 93, 16, 0.234);
+    border: 1px solid rgba(227, 93, 16, 0.234);
+    border-radius: 1rem;
+}
+
+
+
+

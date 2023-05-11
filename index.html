@@ -1,13 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="x-ua-compatible" content="IE=edge">
-        <link rel="stylesheet" href="./assets/css/script.css"> 
-        <title>Nigel's Weather Channel</title>
-    </head>
-    <body>
-        <header id="header" class="hder">Nigel's Weather Channel</header>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Nigel's Weather Channel</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <h1>Nigel's Weather Channel</h1>
+    </header>
+    <input type="text" id="search-input">
+    <button id="search-btn">Search</button>
+    <div id="search-history">
+        <h2>Search History:</h2>
+        <ul id="city-history">
+        </ul>
+    </div>
+</body>
+
+<main id="weather-bx" class="container">
+        <section class="current-weather">
+                    <h2 class="header-block"> Current Weather Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="daycity"></p>
+                        <p id="cityname"></p>
+                        <a href="https://openweathermap.org/img/wn/01d.png" target=""><img id="weather-icon"
+                                src="https://openweathermap.org/img/wn/01d.png"
+                                alt="Displays current temp, humidity, and wind"></a>
+                        <p id="temp">Temperature:</p>
+                        <p id="humid">Humidity:</p>
+                        <p id="wind">Wind:</p>
+                    </aside>
+        </section>
+        <section class="arrow-selector">
+            <button class="arrow left"></button>
+            <button class="arrow right"></button>
+        </section>
+        <section class="row">
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">Day 1 Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="day1city"></p>
+                        <p id="city1name"></p>
+                        <a href="https://openweathermap.org/img/wn/01d.png" target=""><img id="weather-icon1"
+                                src="https://openweathermap.org/img/wn/01d.png"
+                                alt="Displays current temp, humidity, and wind"></a>
+                        <p id="temp1">Temperature:</p>
+                        <p id="humid1">Humidity:</p>
+                        <p id="wind1">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+        </section>
+        <section class="row">
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">Day 2 Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="day2city"></p>
+                        <p id="city2name"></p>
+                        <a href="https://openweathermap.org/img/wn/01d.png" target=""><img id="weather-icon2"
+                                src="https://openweathermap.org/img/wn/01d.png"
+                                alt="Displays current temp, humidity, and wind"></a>
+                        <p id="temp2">Temperature:</p>
+                        <p id="humid2">Humidity:</p>
+                        <p id="wind2">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+        </section>
+        <section class="row">
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">Day 3 Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="day3city"></p>
+                        <p id="city3name"></p>
+                        <a href="https://openweathermap.org/img/wn/01d.png" target=""><img id="weather-icon3"
+                                src="https://openweathermap.org/img/wn/01d.png"
+                                alt="Displays current temp, humidity, and wind"></a>
+                        <p id="temp3">Temperature:</p>
+                        <p id="humid3">Humidity:</p>
+                        <p id="wind3">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+        </section>
+        <section class="row">
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">Day 4 Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="day4city"></p>
+                        <p id="city4name"></p>
+                        <a href="https://openweathermap.org/img/wn/01d.png" target=""><img id="weather-icon4"
+                                src="https://openweathermap.org/img/wn/01d.png"
+                                alt="Displays current temp, humidity, and wind"></a>
+                        <p id="temp4">Temperature:</p>
+                        <p id="humid4">Humidity:</p>
+                        <p id="wind4">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+        </section>
+        <section class="row">
+            <article class="card-column">
+                <figure class="card-block">
+                    <h2 class="header-block">Day 5 Forecast</h2>
+                    <aside class="weather-block">
+                        <p id="day5city"></p>
+                        <p id="city5name"></p>
+                        <a href="https://openweathermap.org/img/wn/01d.png" target=""><img id="weather-icon5"
+                                src="https://openweathermap.org/img/wn/01d.png"
+                                alt="Displays current temp, humidity, and wind"></a>
+                        <p id="temp5">Temperature:</p>
+                        <p id="humid5">Humidity:</p>
+                        <p id="wind5">Wind:</p>
+                    </aside>
+                </figure>
+            </article>
+        </section>
+</main>
+<script src="./assets/js/script.js"></script>
+<footer>
+    <section class="footer" id="footer">
+        <section class="form-footer">
+            <h3> Designed by Nigel Watkins</h3>
+            <h4>&copy; 2023 &reg; All rights reseerved</h4>
+        </section>
+    </section>
+</footer>
+
 </html>
