@@ -12,5 +12,8 @@ https://openweathermap.org/weather-conditions
 <br> https://jquery.com/
 <br> https://getbootstrap.com/docs/5.0/getting-started/download/
 
+# Deployed link
+<br> https://nigeldwatkins.github.io/Weatherforecast_dw/
+
 # Author 
 Nigel Watkins: https://github.com/nigeldwatkins
