@@ -23,7 +23,34 @@
     border: 1px solid rgba(227, 93, 16, 0.234);
     border-radius: 1rem;
 }
+ 
+.container {
+    padding: 20px 7px;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
 
+.card-column {
+    flex: 1 1 250px;
+    margin: 10px;
+    background: rgba(227, 93, 16, 0.234);
+    border-radius: 1rem;
+}
 
-
+.card-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid rgba(227, 93, 16, 0.234);
+    border-radius: 1rem;
+    text-align: center;
+    min-height: 300px;
+    box-shadow: 0 0 10px rgba(227, 93, 16, 0.234);
+}
